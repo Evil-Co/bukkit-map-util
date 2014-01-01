@@ -1,0 +1,9 @@
+name: MapUtility
+description: Adds commands which might be useful for map creators.
+main: com.evilco.bukkit.map.utility.MapUtilityPlugin
+version: "${project.version}"
+commands:
+    spectator:
+        description: Puts a player into a spectator mode (gives them the ability to fly but disallows world and player interactions).
+    pvp:
+        description: Enables or disables PvP in the current world.
