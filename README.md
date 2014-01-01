@@ -1,4 +1,4 @@
-DispenserRefill [![Build Status](https://travis-ci.org/LordAkkarin/DispenserRefill.png?branch=master)](https://travis-ci.org/LordAkkarin/DispenserRefill)
+Map Utility [![Build Status](https://travis-ci.org/LordAkkarin/DispenserRefill.png?branch=master)](https://travis-ci.org/LordAkkarin/DispenserRefill)
 ===============
 The MapUtility plugin for your Bukkit server allows map creators to execute
 a set of specific map (or world) related commands including:
