@@ -174,7 +174,7 @@
 			</plugin>
 
 			<!-- JAR signing -->
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jarsigner-plugin</artifactId>
 				<version>1.2</version>
@@ -193,7 +193,7 @@
 					<alias>${signerAlias}</alias>
 					<storepass>${signerPassword}</storepass>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 </project>
