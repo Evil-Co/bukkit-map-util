@@ -136,7 +136,7 @@ public class PlayerListener implements Listener {
 	@EventHandler
 	public void onGameModeChange (PlayerGameModeChangeEvent event) {
 		// update flight permission
-		if (this.plugin.getSpectators ().contains (event.getPlayer ()) && !event.getNewGameMode ().equals (GameMode.CREATIVE)) event.getPlayer ().setAllowFlight (false);
+		if (this.plugin.getSpectators ().contains (event.getPlayer ()) && !event.getNewGameMode ().equals (GameMode.CREATIVE) && !event.getPlayer ().getGameMode ().equals (GameMode.CREATIVE)) event.getPlayer ().setAllowFlight (false);
 	}
 
 	/**
